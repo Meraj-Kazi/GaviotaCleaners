@@ -227,6 +227,17 @@ li {
 	padding: 10px;
 }
 
+.ico-custom-3 {
+	color: #ffffff;
+	padding-bottom: 10px;
+	margin-top: 80px;;
+}
+
+.ico-custom-3:hover {
+	color: #d4d1d1;
+	padding-bottom: 10px;
+	margin-top: 80px;;
+}
 
 .map-container-2{
 overflow:hidden;
