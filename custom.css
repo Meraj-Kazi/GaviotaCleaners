@@ -61,6 +61,11 @@
 
 .btn-custom-4 {
 	padding: 10px;
+	border-radius: 30px;
+	border-color: #ffffff;
+	color: #31588C;
+	background-color: #ffffff;
+	font-family: 'Roboto Slab', serif;
 }
 
 .bg-custom-1 {
@@ -98,7 +103,7 @@
 }
 
 .bg-custom-8 {
-	background-color: #dcf2fb;
+	background-color: #FF8A00;
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
@@ -172,6 +177,7 @@
 .txt-10 {
 	font-size: 50px;
 	font-family: 'Roboto Slab', serif;
+	color: #ffffff;
 }
 
 .txt-11 {
