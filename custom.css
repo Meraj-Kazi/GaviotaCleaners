@@ -181,6 +181,13 @@
 	font-family: 'Roboto Slab', serif;
 }
 
+.txt-12 {
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	font-size: 50px;
+	font-family: 'Roboto Slab', serif;
+}
+
 .body-img {
 	margin: 0;
 	padding-left: 80px;
@@ -244,7 +251,7 @@ position:absolute;
 	padding-bottom: 100px;
 }
 
-.card {
+.card-custom {
 	padding-right: 20px;
 	margin: 20px;
 }
@@ -260,5 +267,4 @@ position:absolute;
 .bg-success {
 	color: #ffffff;
 }
-
 
