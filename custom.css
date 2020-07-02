@@ -68,6 +68,15 @@
 	font-family: 'Roboto Slab', serif;
 }
 
+.btn-custom-5 {
+	padding: 10px;
+	border-radius: 30px;
+	border-color: #31588C;
+	color: #ffffff;
+	background-color: #31588C;
+	font-family: 'Roboto Slab', serif;
+}
+
 .bg-custom-1 {
 	background-color: #dcf2fb;
 	padding-bottom: 200px;
