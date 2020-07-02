@@ -1,11 +1,11 @@
 .navbar-brand {
-	padding-right: 400px;
+	padding-right: 300px;
 	padding-left: 350px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0rem;
-    padding-left: 6.5rem;
+    padding-left: 4.5rem;
 }
 
 .h-1 {
@@ -50,6 +50,8 @@
 .btn-custom-2 {
 	padding-left: 40px;
 	padding-right: 40px;
+	padding-top: 7px;
+	padding-bottom: 7px;
 	margin-left: 10px;
 }
 
@@ -75,6 +77,26 @@
 	color: #ffffff;
 	background-color: #31588C;
 	font-family: 'Roboto Slab', serif;
+}
+
+.btn-custom-6 {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 30px;
+	border-color: #31588C;
+	color: #ffffff;
+	background-color: #31588C;
+	font-family: 'Roboto Slab', serif;
+}
+
+.btn-custom-7 {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-left: 10px;
 }
 
 .bg-custom-1 {
@@ -205,6 +227,12 @@
 	font-family: 'Roboto Slab', serif;
 }
 
+.txt-13 {
+	padding-top: 20px; 
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+}
+
 .body-img {
 	margin: 0;
 	padding-left: 80px;
@@ -271,9 +299,9 @@ position:absolute;
 
 .form-custom-1 {
 	border-radius: 30px;
-	padding: 30px;
 	padding-left: 20px;
 }
+
 
 .body-custom-1 {
 	padding-bottom: 100px;
@@ -296,3 +324,64 @@ position:absolute;
 	color: #ffffff;
 }
 
+
+/*Star Rating*/
+.rating {
+	float:left;
+  }
+
+  /* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+	follow these rules. Every browser that supports :checked also supports :not(), so
+	it doesn’t make the test unnecessarily selective */
+  .rating:not(:checked) > input {
+	  position:absolute;
+	  top:-9999px;
+	  clip:rect(0,0,0,0);
+  }
+
+  .rating:not(:checked) > label {
+	  float:right;
+	  width:1em;
+	  /* padding:0 .1em; */
+	  overflow:hidden;
+	  white-space:nowrap;
+	  cursor:pointer;
+	  font-size:300%;
+	  /* line-height:1.2; */
+	  color:rgb(177, 172, 172);
+  }
+
+  .rating:not(:checked) > label:before {
+	  content: '★ ';
+  }
+
+  .rating > input:checked ~ label {
+	  color: #31588C;
+	  
+  }
+
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {
+	  color: #31588C;
+	  
+  }
+
+  .rating > input:checked + label:hover,
+  .rating > input:checked + label:hover ~ label,
+  .rating > input:checked ~ label:hover,
+  .rating > input:checked ~ label:hover ~ label,
+  .rating > label:hover ~ input:checked ~ label {
+	  color: #31588C;
+	  
+  }
+
+  .rating > label:active {
+	  position:relative;
+	  top:2px;
+	  left:2px;
+  }
+/*Star Rating*/
+
+.fa-shopping-cart:hover {
+	color: #31588C;
+}
