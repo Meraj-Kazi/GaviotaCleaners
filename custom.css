@@ -52,6 +52,13 @@ padding-left: 3.5rem;
 	text-align: center;
 }
 
+.btn-1 {
+	color: #ffffff;
+}
+.btn-1:hover {
+	color: #e4e2e2;
+}
+
 .btn-custom-1 {
 	background-color: #ffffff;
 	color: #31588C;

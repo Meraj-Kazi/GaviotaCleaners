@@ -19,29 +19,46 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="index.html"><img src="img/logo1.png" width="150" height="120"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">HOME</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="service.html">OUR SERVICES</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="review.html">REVIEWS <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">CONTACT US</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img src="img/logo1.png" width="150" height="120"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto menu">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">OUR SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="review.html">REVIEWS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signin.html">SIGN IN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signup.html">SIGN UP</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        </div>
+      </div>
+    </header>
 
 
 
@@ -172,11 +189,26 @@
         <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Low">2 stars</label>
         <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Bad">1 star</label>
       </div>
+      <div class="form-group">
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your email address">
+      </div>
+      <div class="form-group">
+        <textarea class="common-textarea form-control" name="message" placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+         <label class="form-check-label" for="gridCheck">
+           Send me promotional offers through email
+         </label>
+       </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-custom-5">Send Review</button>
     </div>
 
       
     <div class="col-md-6">  
-        <form>
+<!--  <form>
           <div class="form-row">
             <div class="form-group col-md-6">
               <input type="firstName" class="form-control" id="inputFirstName" placeholder="Enter your First Name">
@@ -200,7 +232,7 @@
              </div>
             </div>
             <button type="submit" class="btn btn-primary btn-custom-5">Send Review</button>
-        </form>
+        </form> -->
 
     </div>
   </div>
