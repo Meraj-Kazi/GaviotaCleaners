@@ -130,16 +130,37 @@
       <div class="col-md-4 card">
         <h2 class="txt-14"><strong>Select Delivery Date & Time</strong></h2>
         <br>
-        <p>Pick Delivery Date</p>
-        <input type="text" data-role="calendarpicker">
+        <label for="deliveryDate">Pick Delivery Date</label>
+        <input type="date" name="deliveryDate" id="deliveryDate">
         <p>Pick Delivery Time</p>
-        <input data-role="timepicker" data-seconds="false">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+          </div>
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>Choose...</option>
+            <option value="1">10.00 am</option>
+            <option value="2">11.00 am</option>
+            <option value="3">12.00 pm</option>
+            <option value="4">01.00 pm</option>
+            <option value="5">02.00 pm</option>
+            <option value="6">03.00 pm</option>
+            <option value="7">04.00 pm</option>
+            <option value="8">05.00 pm</option>
+            <option value="9">06.00 pm</option>
+            <option value="10">07.00 pm</option>
+            <option value="11">08.00 pm</option>
+            <option value="12">09.00 pm</option>
+          </select>
+        </div>
       </div>
       <div class="col-md-1"></div>
         <div class="col-md-3">
         </div>
     </div>
   </div>
+
+  
 
 
   <div class="comtainer body-custom-1">
@@ -234,6 +255,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/all.js"></script>
     <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+    
 <!--    <script src="js/custom.js"></script>  --> 
   </body>
 </html>
